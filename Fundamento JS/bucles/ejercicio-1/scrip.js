@@ -62,18 +62,38 @@ function pares(){
 }
 
 
-  function compararNumeros() {
-    var numeros = [];
-    var numeroMayor;
+function compararNumeros() {
+  let arryanum = []
+  let nummayor = 0;
+  
+    for (let i = 0; i < 5; i++) {
+     let num = parseInt(prompt("ingrese su numero"))
+     arryanum.push(num)
+     if(nummayor < num){ nummayor = num}else{nummayor = nummayor}
     
-    for (var i = 0; i < 5; i++) {
-        var numero = prompt("Ingresa el número " + (i+1));
-        numeros.push(Number(numero));
-    
-        if (i === 0 || numero > numeroMayor) {
-            numeroMayor = numero;
-        }
     }
+    document.getElementById("lista").innerHTML = `de los numeros: ${arryanum.sort()} `
+}
 
-   alert("el numero mayor es: " + numeroMayor)
-  }
+function for_pares(){
+ 
+
+  let p = parseInt(prompt("cuantos numeros quiere ingresar"))
+ for (let i = 0; i < p; i++) {
+   let paress = parseInt(prompt("ingrese sus numeros"))
+ }
+
+ for (let z = 0; z < p ; z++) {
+  let numeros
+  numeros =  paress % 2
+   if(Number.isInteger(numeros))
+   {
+
+   }
+  
+ }
+   
+    
+      
+ document.getElementById("for_parest").innerHTML =  
+}
