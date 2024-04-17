@@ -12,8 +12,7 @@ function no_negativo(){
   }
 let original = [array]
    for (let i = 0; i < con; i++) {
-         let numero = parseInt(prompt("cuales son tus numeros"))
-         array.push(numero)
+
 
          if(array[i] < 0){
            array[i] = 0
