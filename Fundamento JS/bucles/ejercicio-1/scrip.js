@@ -95,5 +95,5 @@ function for_pares(){
    
     
       
- document.getElementById("for_parest").innerHTML =  
+ 
 }
