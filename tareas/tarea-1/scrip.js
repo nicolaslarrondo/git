@@ -3,12 +3,18 @@
 function multiplicacion(){
 
 let numero = document.getElementById("num").value
-let contador = document.getElementById("con").value
-let array = []
+let b
+let array =[]
 
-for(let i = 0; i < contador ; i++) {
-    let resultado = numero * i
-    array.push(resultado)
+ for(let i = 1; i < 11 ; i++) {
+
+    
+    b = `${numero} * ${i} = ${numero * i}<br> `
+    array.push(b)
+    
+ }
+
+ document.getElementById("p").innerHTML =`${array.join("")} \n`;
+
 }
- document.getElementById("p").innerHTML  = array;
-}
+
