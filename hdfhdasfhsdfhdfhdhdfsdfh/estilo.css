@@ -1,0 +1,46 @@
+
+
+
+.titulo{
+position: absolute;
+left:810px;
+top: 300px;
+font-family: fantasy;
+}
+
+body{
+    background-color: rgb(128, 112, 99);
+}
+
+.textos{
+position: absolute;
+top: 400px;
+left: 780px; ;
+}
+
+.boton{
+position: absolute;
+left: 980px;    
+top: 400px;
+background-color: black;
+color: white;
+}
+
+.puntaje{
+  border:  2px solid black; 
+  width: 90px;
+  height: 20px;
+  top: 450px;
+  left: 820px;
+  position: absolute; 
+  padding: 10px;
+  font-family: fantasy;
+}
+
+.contexto{
+position: absolute;
+font-family: fantasy;
+top: 520px;
+left: 680px;
+
+}
