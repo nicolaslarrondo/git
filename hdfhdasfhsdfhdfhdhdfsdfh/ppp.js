@@ -1,7 +1,4 @@
 
-
-
-
 var count = 0;
 
 function contar() {
@@ -43,7 +40,7 @@ function contar() {
         holdbet = 'Bet';
     }
 
-    var resultado = count + "" + holdbet
+    var resultado = count + "-" + holdbet
 
     document.getElementById("pun").innerHTML = `resultado:${resultado} `
     return count + "-" + holdbet;
